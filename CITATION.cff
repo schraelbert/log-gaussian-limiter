@@ -1,10 +1,24 @@
 cff-version: 1.2.0
-message: "Please cite the associated article."
-title: "Code and data for a log-Gaussian scale-space limiter for hybrid continuum--ballistic gas dynamics"
+message: "If you use this code or data, please cite both the archived repository release and the associated article."
+title: "Code and data for A log-Gaussian scale-space limiter for hybrid continuum-ballistic gas dynamics"
+type: software
 authors:
   - family-names: Wu
     given-names: Bjørn
     orcid: "https://orcid.org/0000-0001-7641-0856"
-doi: "10.1515/ot-2026-0023"
 year: 2026
-license: "MIT AND CC-BY-4.0"
+license: MIT
+repository-code: "https://github.com/schraelbert/log-gaussian-limiter"
+abstract: "Public reproducibility package for the numerical scripts, data, figures, and tables accompanying the Open Transport article."
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Wu
+      given-names: Bjørn
+      orcid: "https://orcid.org/0000-0001-7641-0856"
+  title: "A log-Gaussian scale-space limiter for hybrid continuum-ballistic gas dynamics"
+  journal: "Open Transport"
+  volume: 1
+  issue: 1
+  year: 2026
+  doi: "10.1515/ot-2026-0023"
