@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated article."
+title: "Code and data for a log-Gaussian scale-space limiter for hybrid continuum--ballistic gas dynamics"
+authors:
+  - family-names: Wu
+    given-names: Bjørn
+    orcid: "https://orcid.org/0000-0001-7641-0856"
+doi: "10.1515/ot-2026-0023"
+year: 2026
+license: "MIT AND CC-BY-4.0"

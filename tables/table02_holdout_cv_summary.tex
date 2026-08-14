@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Leave-one-case-out parameter robustness check. Parameters are selected by minimizing the mean profile error over the remaining five DVM/BGK benchmark cases and then evaluated on the held-out case.}
+\label{tab:holdout_cv}
+\begin{tabular}{lcccc}
+\toprule
+Choice & Mean held-out error & Median selected $K_0$ & Median selected $\sigma$ & Cases \\
+\midrule
+default & 2.4368e-02 & 0.1 & 1.0 & 6 \\
+training-selected & 2.1048e-02 & 0.03 & 2.5 & 6 \\
+full-data best & 1.4533e-02 & 0.03 & 2.5 & 6 \\
+\bottomrule
+\end{tabular}
+\end{table}

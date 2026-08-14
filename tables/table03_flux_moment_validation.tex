@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{DVM/BGK non-equilibrium flux and moment diagnostic. Errors are relative to DVM/BGK reference values. Rarefaction branches improve heat-flux and shear-stress predictions relative to NSF, while the log-Gaussian limiter is not always the best moment closure.}
+\label{tab:flux_moment_validation}
+\begin{tabular}{lllccc}
+\toprule
+Benchmark & Moment & Model & Mean error & Max error & Cases \\
+\midrule
+Fourier & heat\_flux & nsf & 8.0438e-01 & 2.0450e+00 & 3 \\
+Fourier & heat\_flux & hard & 1.8286e-01 & 4.3190e-01 & 3 \\
+Fourier & heat\_flux & algebraic & 1.9120e-01 & 4.0738e-01 & 3 \\
+Fourier & heat\_flux & log & 1.9057e-01 & 4.0552e-01 & 3 \\
+Fourier & heat\_flux & jump & 1.7007e-01 & 4.3190e-01 & 3 \\
+Couette & velocity\_profile & nsf & 1.5648e-01 & 3.5363e-01 & 3 \\
+Couette & velocity\_profile & hard & 2.1035e-02 & 4.2230e-02 & 3 \\
+Couette & velocity\_profile & algebraic & 3.5018e-02 & 5.3505e-02 & 3 \\
+Couette & velocity\_profile & log & 3.4916e-02 & 5.3505e-02 & 3 \\
+Couette & velocity\_profile & slip & 1.7297e-02 & 4.2230e-02 & 3 \\
+Couette & shear\_stress & nsf & 6.3536e-01 & 1.6396e+00 & 3 \\
+Couette & shear\_stress & hard & 7.7912e-02 & 1.9819e-01 & 3 \\
+Couette & shear\_stress & algebraic & 1.1027e-01 & 1.8000e-01 & 3 \\
+Couette & shear\_stress & log & 1.0980e-01 & 1.7862e-01 & 3 \\
+Couette & shear\_stress & slip & 7.0236e-02 & 1.9819e-01 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}

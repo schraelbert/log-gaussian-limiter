@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p results/data results/figures results/tables paper_tables paper_tables_journal
+python experiments/exp06_couette_slip_benchmark.py
+python experiments/exp09_dvm_bgk_fourier.py
+python experiments/exp10_dvm_bgk_couette.py
+python experiments/exp11_fit_loggaussian_parameters.py
+python experiments/exp12_default_vs_fitted_profiles.py
+python experiments/exp13_make_summary_tables.py
+python experiments/exp14_normal_shock_indicator_demo.py
+python experiments/exp15_parameter_holdout_cv.py
+python experiments/exp16_bgk_flux_relaxation_test.py
+python experiments/exp17_flux_moment_validation.py
+python experiments/exp17b_make_flux_moment_table.py
+python experiments/exp18_extended_parameter_calibration.py
+python experiments/exp19_dvm_bgk_normal_shock.py
+python experiments/exp19b_make_normal_shock_table.py
+python experiments/exp20_2d_blunt_body_indicator.py
