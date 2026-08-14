@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21940088.svg)](https://doi.org/10.5281/zenodo.21940088)
+
 # Code and data for log-Gaussian continuum--ballistic limiter
 
 This repository contains the code, data, final article figures, and final article tables for:
@@ -26,7 +28,13 @@ Generated outputs are written to `results/`, `paper_tables/`, and `paper_tables_
 
 ## Citation
 
+Please cite the article:
+
 Bjørn Wu, "A log-Gaussian scale-space limiter for hybrid continuum--ballistic gas dynamics," Open Transport 1(1), 20260023 (2026). https://doi.org/10.1515/ot-2026-0023
+
+Please also cite this archived code and data release:
+
+Bjørn Wu, Code and data for "A log-Gaussian scale-space limiter for hybrid continuum--ballistic gas dynamics", v1.0.1, Zenodo, 2026. https://doi.org/10.5281/zenodo.21940088
 
 ## License
 
